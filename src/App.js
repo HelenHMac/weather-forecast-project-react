@@ -8,7 +8,7 @@ export default function App() {
       Weather App
       <footer>
       This Project was created by <a href="https://luminous-kelpie-26467d.netlify.app" target="_blank" rel="noreferrer"> Olena Honcharova </a> and is {" "}
-      <a href="github.com/HelenHMac/weather-forecast-project-react" target="_blank" rel="noreferrer">
+      <a href="https://github.com/HelenHMac/weather-forecast-project-react" target="_blank" rel="noreferrer">
         open-sourced on GitHub
       </a>
       </footer>
