@@ -1,0 +1,62 @@
+.listnone {
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .main-city {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(36, 111, 152);
+  }
+
+  .main-temperature {
+    font-size: 80px;
+    margin-left: 10px;
+    color: rgb(36, 111, 152);
+    position:relative;
+    top: -15px ;
+    left: 12px;
+  }
+
+  .main-degree {
+    font-size: 20px;
+    vertical-align: super;
+    position:relative;
+    top: -48px ;
+    left: 12px;
+    color: rgb(36, 111, 152);
+  }
+
+  .main-img {
+    position: relative;
+    top: -38px;
+    left: 20px;
+  }
+
+  .main-description {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .app-header {
+    color: rgb(36, 111, 152);
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .main-button {
+    background-color: rgb(145, 217, 243);
+    border: rgb(36, 144, 212);
+    border-radius: 5px;
+    padding: 6px 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+  }
+
+  footer {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(62, 61, 61);
+  }
