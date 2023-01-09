@@ -5,7 +5,7 @@ export default function Weather() {
 return (
     <div className="Weather">
           <h1 className="app-header">Weather Forecast App</h1>
-          <form action="" autofocus="on" className="mb-3">
+          <form action="" className="mb-3">
           <div className="row">
             <div className="col-8">
               <input
@@ -13,6 +13,7 @@ return (
                 placeholder="Enter a city"
                 class="form-control"
                 autocomplete="off"
+                autoFocus="on"
               />
             </div>
             <div className="col-4">
