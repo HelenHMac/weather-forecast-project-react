@@ -25,7 +25,7 @@ function convertToCelsius(event) {
             {props.celsius}
             </strong>
 
-            <span className="main-degree">°C | <a href="/" onClick={convertToFarenheit} className="units">°F </a>
+            <span className="main-degree">°C | <a href="/" onClick={convertToFarenheit} className="units">°F</a>
             </span>
             </span>
             );
@@ -37,7 +37,7 @@ function convertToCelsius(event) {
                     {farenheit()}
                     </strong>
         
-                    <span className="main-degree">°<a href="/" onClick={convertToCelsius} className="units">C</a> | °F
+                    <span className="main-degree"><a href="/" onClick={convertToCelsius} className="units">°C</a> | °F
                     </span>
                     </span>
                     )
