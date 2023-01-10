@@ -35,11 +35,11 @@
     color: rgb(36, 111, 152);
   }
 
-  .main-img canvas {
+  .main-img {
     position: relative;
-    top: 0px;
-    left: 15px;
-    max-height: 55px;
+    top: -20px;
+    left: 0px;
+    max-width: 75px;
 
   }
 
