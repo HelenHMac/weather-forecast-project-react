@@ -5,3 +5,8 @@ text-align:center;
 .forecast-min-temp {
     color: grey;
 }
+
+.forecast-img {
+    position: relative;
+    top: 15px;
+}
