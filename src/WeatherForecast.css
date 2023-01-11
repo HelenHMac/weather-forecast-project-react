@@ -7,6 +7,5 @@ text-align:center;
 }
 
 .forecast-img {
-    position: relative;
-    top: 15px;
+    max-height: 60px;
 }

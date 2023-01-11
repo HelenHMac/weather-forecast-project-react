@@ -6,7 +6,7 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
     return (
         <div>
-        <div className="row">
+        <div className="row mb-4">
                 <div className="col-7">
                  <ul className="listnone">
                     <li className="main-city">{props.data.city}</li>
@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
                     </li>
                   </ul>
                   </div>
-                  <div className="col-5">
+                  <div className="col-5 d-inline-flex justify-content-between">
                   <span>
                     <WeatherTemperature celsius={props.data.temperature}/>
                   </span>

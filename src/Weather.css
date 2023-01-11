@@ -1,9 +1,15 @@
 .Weather {
-    border: 1px solid #dadde1;
-    padding: 10px 50px;
-    margin: 40px auto;
-    border-radius: 10px;
+    padding: 10px 30px;
+
+
 }
+
+.weather-border {
+  border: 1px solid #dadde1;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
 
 .listnone {
     list-style: none;
@@ -31,15 +37,15 @@
     vertical-align: super;
     position:relative;
     top: -28px ;
-    left: 2px;
+    left: 10px;
     color: rgb(36, 111, 152);
   }
 
   .main-img {
     position: relative;
-    top: -20px;
-    left: 0px;
-    max-width: 75px;
+    top: 5px;
+    right: 0px;
+    max-height: 90px;
 
   }
 
@@ -59,10 +65,15 @@
     background-color: rgb(145, 217, 243);
     border: rgb(36, 144, 212);
     border-radius: 5px;
-    padding: 6px 40px;
+    padding: 6px 61px;
     margin-left: 5px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
+  }
+
+  .button-center {
+    position: relative ;
+    left: 30px;  
   }
 
   footer {
@@ -74,3 +85,8 @@
   .units {
     text-decoration: none;
   }
+
+
+.listnone {
+  padding-left: 5px;
+}
