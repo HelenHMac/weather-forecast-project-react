@@ -45,22 +45,19 @@ if (weatherData.ready) {
         <div className="Weather">
               <h1 className="app-header mb-5">Weather Forecast App</h1>
               <form onSubmit={handleSubmit} className="mb-3">
-              <div className="row mb-4">
-                <div className="col-8">
+              <div className="mb-4 d-flex">
+                
                   <input
                     type="search"
                     placeholder="Enter a city"
-                    className="form-control"
+                    className="form-control me-4"
                     autoComplete="off"
                     autoFocus="on"
                     onChange={handleCityChange}
                   />
-                </div>
-                <div className="col-4">
-                  <div>
                   <input type="submit" value="Search" className="main-button" />
-                  </div>
-                </div>
+                 
+                
               </div>
             </form>
 
